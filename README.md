@@ -1,2 +1,2 @@
 # Minions
-banana-speak using vanillaJs
+Minions-banana-speak using vanillaJs
