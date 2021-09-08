@@ -1,0 +1,31 @@
+textarea {
+    width: 90%;
+    height: 10vh;
+}
+
+body {
+    background-color: #F2F877;
+}
+
+button {
+    background-color: #F0DE09;
+    color : white;
+    margin : 20px;
+}
+
+section {
+    align-items: center;
+    width: 60%;
+    margin :auto;
+}
+
+nav {
+    align-content: center;
+    background-color: #F0DE09;
+    color: white;
+    padding: 20px;
+    margin-top: -10px;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    margin-bottom: 60px;
+}
