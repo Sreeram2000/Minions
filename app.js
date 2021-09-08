@@ -1,7 +1,14 @@
 var txtarea = document.querySelector("#txtarea");
 var button = document.querySelector("#buttonArea");
-var txt = txtarea.value;
-buttonArea.addEventListener("click",function() {
+var out = document.querySelector("#outarea")
+
+button.addEventListener("click",function() {
     var txt = txtarea.value;
-    console.log("input "+ txt);
+    var url = "https://api.funtranslations.com/translate/minion.json" + "?text=" + txt;
+    fetch(url)
+        .then(response => response.json())
+        .then(json => {
+            out.innerText = json.contents.translated;
+        })
 })
+
